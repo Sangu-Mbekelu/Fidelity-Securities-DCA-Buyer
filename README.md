@@ -6,7 +6,7 @@
 - An investment strategy that relies on regularly purchasing securities <br>
 for the same dollar amount regardless of the market. <br>
 - A non-optimal way of mitigating non-ideal lump sum timing and investor psyche <br>
--  A common example of DCA investing <br>
+-  A common example of DCA investing is a 401k<br>
 
 &nbsp;&nbsp; __*Why?*__
 
@@ -86,7 +86,7 @@ For use, change to true and add relevant information in config
 Powershell script included to run the python script periodically through the Windows task scheduler.  
 Guide to use task scheduler: https://linuxhint.com/schedule-powershell-script-using-task-scheduler   
 
-```
+```PowerShell
 # DCA_Scheduler.ps1
 
 $WorkingDirectory = "" # add working directory path
