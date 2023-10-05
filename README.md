@@ -12,7 +12,7 @@ for the same dollar amount regardless of the market. <br>
 
 - Already had a Fidelity account
 - Fidelity doesn't have a feature that allows scheduled individual stock purchases
-- Little maintained anticipated (Fidelity barely changes their site)
+- Little maintenance anticipated (Fidelity barely changes their site)
 - Fidelity to schedule stock purchases
 
 
@@ -86,7 +86,7 @@ For use, change to true and add relevant information in config
 Powershell script included to run the python script periodically through the Windows task scheduler.  
 Guide to use task scheduler: https://linuxhint.com/schedule-powershell-script-using-task-scheduler   
 
-```PowerShell
+```powershell
 # DCA_Scheduler.ps1
 
 $WorkingDirectory = "" # add working directory path
