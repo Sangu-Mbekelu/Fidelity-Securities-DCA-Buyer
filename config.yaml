@@ -1,0 +1,41 @@
+# Enter absolute path of downloaded Chrome For Testing .exe
+chrome_path: ""
+
+
+# Fidelity Account Information ==================
+username: "" # Enter Fidelity Username
+
+password: "" # Enter Fidelity Password
+
+
+# ETF's and Stocks ==============================
+security_purchases:
+  - ""
+  - ""
+  - ""
+
+security_prices:
+  - ""
+  - ""
+  - ""
+
+individual_security_purchases:
+  - ""
+
+individual_security_prices:
+  - ""
+
+individual_purchase_dates: # Enter day of the week (0=Monday, 4=Friday)
+  -
+
+# EMAIL OPTIONS (Bot Email must be Google Account) =================================
+Email:
+  - False  # True enables email, false disables
+
+User_Email: ""  # The personal account that will be checked
+
+BotEmail_Username: ""  # Bot Account Username
+
+BotEmail_Key: ""  # Google Key for Automated Email (This will not be the account login password) (Will be 16-digits)
+
+
